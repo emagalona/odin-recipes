@@ -1,3 +1,47 @@
 * {
     font-family:Verdana, Tahoma, sans-serif;
 }
+
+body {
+    background-color: aquamarine;
+}
+
+p {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    background-color: Red;
+    color: blanchedalmond;
+}
+
+li {
+    border: 1px solid black;
+    width: 150px;
+    list-style-type: none;
+    padding: 0;
+    color: black;
+    text-align: center;
+    background-color: white;
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+    height: 2rem;
+    
+}
+
+li:hover {
+    background-color: brown;
+    animation: 1.5s ease-out;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 100%;
+    display: block;
+    height: 2rem;
+    padding-top: .5rem;
+}
